@@ -960,3 +960,7 @@ textarea {
   background-image: url(../image/svg/icon-check.svg);
   border-radius: 2px;
 }
+
+.form-checkbox:focus + .policy-icon {
+  border: 2px solid var(--secondary-color);
+}
